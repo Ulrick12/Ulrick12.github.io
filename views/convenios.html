@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-convenios.css">
+    <link rel="stylesheet" type="text/css" href="../styleicon-pag.css">
+    <title>ProyectoHugo Convenios</title>
+</head>
+<body>
+    <header>
+        
+        <div class="navbar">
+            <img src="../img/Encabezado.png" alt="Encabezado" class="img-encabezado">
+            <hr class=linea__navbar-gris>
+            <hr class=linea__navbar-verde>
+            <hr class=linea__navbar-azul>
+            <hr class=linea__navbar-amarrillo>
+            <img src="../img/LOGO-SNIEG-ENCABEZADO.png" alt="Logo SNIEG" class="logo__navbar--SNIEG">
+            <img src="../img/Logo-EDOMEX.png" alt="Logo EDOMEX" class="logo__navbar--EDOMEX">
+            <img src="../img/logo-inegi.png" alt="Logo INEGI" class="logo__navbar--INEGI">
+        </div>
+        
+    </header>
+    <a class="boton cinco" href="../index.html">
+        <div class="icono">
+            <span class="icon-undo2 svg"></span>
+        </div>
+        <span class="texto">Regresar</span>
+    </a>
+    <div class="titulo">
+        Convenios
+    </div>
+
+    
+
+    <div class="menu__archivos">
+        <h2 class="menu__archivos--titulo"> <span class="icon-file-pdf icon__pdf"></span></h2>
+        <ul class="dropdown" id="menu">
+            <a href="#" class="tooltips">
+                <span class="icon-info" style="position:relative; left:1rem; top: 10px; font-size:25px; cursor: pointer;">
+                    <span class="caja__info">Es un indicador demográfico de envejecimiento y representa el número de adultos mayores (60 años o más) por cada cien niños y adolescentes (0-14 años).  Se define como el número de personas envejecidas por cada 100 niños y adolescentes. Relaciona los dos extremos de la vida, dando cuenta del balance entre generaciones viejas y jóvenes, que reflejan la velocidad del envejecimiento de la población.</span>
+                </span>
+            </a> 
+    
+
+            <li class="dropdown__list">
+                <a href="" class="dropdown__link">
+                    <span class="icon-books dropdown__icon"></span>
+                    <span class="dropdown__span">Periodo 2018-2023</span>
+                    <span class="icon-circle-down dropdown__arrow"></span>
+
+                    <input type="checkbox" class="dropdown__check">
+                </a>
+                <div class="dropdown__content">
+                    <ul class="dropdown__sub">
+
+                        <li class="dropdown__li mayor" style=" margin-left: 0;">
+                            <a href="##" class="verde" id="selected" onclick="mostrar6();"><span class="icon-folder" style="margin: 5px;"></span>PEEG del Estado de México 2018-2023</a>
+                        </li>
+
+                        <li class="dropdown__li">
+                            <a href="##" class="verde" id="selected2" onclick="mostrar5();"><span class="icon-file-text icon__file"></span>PAT del Estado de México 2023</a>
+                        </li>
+
+                        <li class="dropdown__li">
+                            <a href="##" class="amarillo" id="selected3" onclick="mostrar4();"><span class="icon-file-text icon__file"></span>PAT del Estado de México 2022</a>
+                        </li>
+
+                        <li class="dropdown__li">
+                            <a href="##" class="amarillo" id="selected4" onclick="mostrar3();"><span class="icon-file-text icon__file"></span>PAT del Estado de México 2021</a>
+                        </li>
+
+                        <li class="dropdown__li">
+                            <a href="##" class="dropdown__anchor" id="selected5" onclick="mostrar2();"><span class="icon-file-text icon__file"></span>PAT del Estado de México 2020</a>
+                        </li>
+
+                        <li class="dropdown__li">
+                            <a href="##" class="dropdown__anchor" id="selected6" onclick="mostrar1();"><span class="icon-file-text icon__file"></span>PAT del Estado de México 2019</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </li>
+
+            <li class="dropdown__list">
+                <a href="" class="dropdown__link">
+                    <span class="icon-books dropdown__icon"></span>
+                    <span class="dropdown__span">Periodo 2012-2017</span>
+                    <span class="icon-circle-down dropdown__arrow"></span>
+
+                    <input type="checkbox" class="dropdown__check">
+                </a>
+                <div class="dropdown__content">
+                    <ul class="dropdown__sub">
+
+                        <li class="dropdown__li mayor" style=" margin-left: 0;">
+                            <a href="##" class="verde" id="selected7" onclick="mostrar10();"><span class="icon-folder" style="margin: 5px;"></span>PEEG 2012-2017 IGECEM-INEGI</a>
+                        </li>
+
+                        <li class="dropdown__li">
+                            <a href="##" class="amarillo" id="selected8" onclick="mostrar9();"><span class="icon-file-text icon__file"></span>PAT del Estado de México 2015</a>
+                        </li>
+
+                        <li class="dropdown__li">
+                            <a href="##" class="amarillo" id="selected9" onclick="mostrar8();"><span class="icon-file-text icon__file"></span>PAT del Estado de México 2014</a>
+                        </li>
+
+                        <li class="dropdown__li">
+                            <a href="##" class="dropdown__anchor" id="selected10" onclick="mostrar7();"><span class="icon-file-text icon__file"></span>PAT del Estado de México 2013</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </li>
+
+        </ul>
+        <!-- <a href="#" class="archivos">Documento X</a>
+        <a href="#" class="archivos">Documento X</a>
+        <a href="#" class="archivos">Documento Z</a>
+        <a href="#" class="archivos">Documento Z</a>
+        <a href="#" class="archivos">Documento X</a>
+        <a href="#" class="archivos">Documento Y</a>
+        <a href="#" class="archivos">Documento X</a>
+        <a href="#" class="archivos">Documento X</a>
+        <a href="#" class="archivos">Documento Z</a>
+        <a href="#" class="archivos">Documento Z</a> -->
+    </div>
+<!-- DOCUMENTOS -->
+    <div class="previsual">
+        <div class="previsual__imagen" id="previsual__imagen" style="display: block;">
+            <img src="../img/doc/imagen_selecciona.svg" alt="Imagen de bienvenida" class="previsual__imagen--edit">
+        </div>
+        <!-- Archivo 2019 -->
+        <div class="previsual__archivo" id="2019" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Documentos_programaticos/PEEG Y PAT/PAT del Estado de México 2019.pdf"></object>
+        </div>
+        <!-- Archivo 2020 -->
+        <div class="previsual__archivo" id="2020" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Documentos_programaticos/PEEG Y PAT/PAT del Estado de México 2020.pdf"></object>
+        </div>
+        <!-- Archivo 2021 -->
+        <div class="previsual__archivo" id="2021" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Documentos_programaticos/PEEG Y PAT/PAT del Estado de México 2021.pdf"></object>
+        </div>
+        <!-- Archivo 2022 -->
+        <div class="previsual__archivo" id="2022" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Documentos_programaticos/PEEG Y PAT/PAT del Estado de México 2022.pdf"></object>
+        </div>
+        <!-- Archivo 2023 -->
+        <div class="previsual__archivo" id="2023" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Documentos_programaticos/PEEG Y PAT/PAT del Estado de México 2023.pdf"></object>
+        </div>
+        <!-- Archivo 2018-2023 -->
+        <div class="previsual__archivo" id="2018-2023" style="display: none;">
+            <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Documentos_programaticos/PEEG Y PAT/PEEG del Estado de México 2018-2023.pdf"></object>
+        </div>
+
+        <!-- Archivos 2012-2017 -->
+            <!-- Archivo 2013 -->
+            <div class="previsual__archivo" id="2013" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Documentos_programaticos/PEEG Y PAT/2012-2017/PAT del Estado de México 2013.pdf"></object>
+            </div>
+            <!-- Archivo 2014 -->
+            <div class="previsual__archivo" id="2014" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Documentos_programaticos/PEEG Y PAT/2012-2017/PAT del Estado de México 2014.pdf"></object>
+            </div>
+            <!-- Archivo 2015 -->
+            <div class="previsual__archivo" id="2015" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Documentos_programaticos/PEEG Y PAT/2012-2017/PAT del Estado de México 2015.pdf"></object>
+            </div>
+            <!-- Archivo 2012-2017 -->
+            <div class="previsual__archivo" id="2012-2017" style="display: none;">
+                <object class="previsual__archivo--tamaño" type="application/pdf" data="../archivos/Documentos_programaticos/PEEG Y PAT/2012-2017/PEEGEM 2012-2017 _IGECEM-INEGI_(VERSIÓN DEFINITIVA).pdf"></object>
+            </div>
+
+
+
+    </div>
+<!--FIN DOCUMENTOS -->
+
+
+
+<footer>
+    <div class="waves">
+        <div class="waves" id="wave1"></div>
+        <div class="waves" id="wave2"></div>
+        <div class="waves" id="wave3"></div>
+        <div class="waves" id="wave4"></div>
+    </div>
+    
+    <div class="footer_menu--redes">
+        <h2>Redes Sociales</h2>
+        <ul class="social__icon">
+            <li><a href="" class="footer_a"><span class="icon-facebook"></span></a></li>
+            <li><a href="" class="footer_a"><span class="icon-twitter"></span></a></li>
+            <li><a href="" class="footer_a"><span class="icon-youtube"></span></a></li>
+            <li><a href="" class="footer_a"><span class="icon-instagram"></span></a></li>
+        </ul>
+        <img src="../img/logoinegibco.png" alt="Logo Inegi" class="logo_inegi">
+        <a href="https://www.inegi.org.mx/">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Youtube</a>
+        <a href="#">Instagram</a>
+    
+    </div>
+    <!-- <div class="footer_menu--enlace">
+        <h2>Enlaces</h2>
+        <a href="https://www.inegi.org.mx/">INEGI</a>
+        <a href="https://www.gob.mx/inmujeres/acciones-y-programas/norma-mexicana-nmx-r-025-scfi-2015-en-igualdad-laboral-y-no-discriminacion">Norma Mexicana <br> NMX R 025 SCFI 2015 en <br> Igualdad Laboral y No Discriminación</a>
+        <a href="https://atlasdegenero-semujeres.edomex.gob.mx/">Atlas de Género del Estado de México</a>
+        <a href="/inegi/enlaces.html">Enlaces de interés</a>
+        <a href="http://cuentame.inegi.org.mx/">Cuéntame de México</a>
+    
+    </div> -->
+    <div class="footer_menu--interes">
+        <h2>Sitios de interés</h2>
+        <!-- <ul class="social__icon__interes">
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+            <li><a href="" class="footer_a__interes"><span class="icon-sphere"></span></a></li>
+        </ul> -->
+        <a href="https://www.snieg.mx/">SNIEG</a>
+        <a href="https://www.inegi.org.mx/">INEGI</a>
+        <a href="https://edomex.gob.mx/">EDOMEX</a>
+        <a href="https://www.snieg.mx/RNIEG/">RNIEG</a>
+
+    
+    </div>
+    
+    <label class="depa">Coordinación Estatal México Poniente </label>
+    <p class="copy">©YUGC</p>
+</footer>
+
+        <script src="../js/menu-doc.js"></script>
+       <!-- Libreria para las alertas -->
+       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       <!-- carpeta js para alertas -->
+       <script src="../controllers/swalertas.js"></script>
+</body>
+</html>
