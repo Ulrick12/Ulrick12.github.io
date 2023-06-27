@@ -330,7 +330,7 @@ header{
     position: absolute;
     width: 90%;
     height: 100%;
-    opacity: 0;
+    opacity: 1;
     cursor: pointer;
 }
 /* iconos de las opciones */
