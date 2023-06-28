@@ -344,6 +344,278 @@ header{
 
 }
 /* iconos de las opciones */
+/* pruebas de opciones dropdown */
+
+.poblacion__opciones--1{ 
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.educacion__opciones--1{ 
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.salud__opciones--1{ 
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.poblacion__opciones--1 label{
+    background-color: #DDDDDD;
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.educacion__opciones--1 label{
+    background-color: #DDDDDD;
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.salud__opciones--1 label{
+    background-color: #DDDDDD;
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.poblacion__opciones--1 label:hover{
+    background-color: #a3a2a2;
+    color: white;
+    cursor: pointer;
+}
+.educacion__opciones--1 label:hover{
+    background-color: #a3a2a2;
+    color: white;
+    cursor: pointer;
+}
+.salud__opciones--1 label:hover{
+    background-color: #a3a2a2;
+    color: white;
+    cursor: pointer;
+}
+.poblacion__opciones--2{
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.educacion__opciones--2{
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.salud__opciones--2{
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.poblacion__opciones--2 label{
+    background-color: #DDDDDD;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.educacion__opciones--2 label{
+    background-color: #DDDDDD;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.salud__opciones--2 label{
+    background-color: #DDDDDD;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.poblacion__opciones--2 label:hover{
+    background-color: #a3a2a2;
+    color: white;
+    cursor: pointer;
+}
+.educacion__opciones--2 label:hover{
+    background-color: #a3a2a2;
+    color: white;
+    cursor: pointer;
+}
+.salud__opciones--2 label:hover{
+    background-color: #a3a2a2;
+    color: white;
+    cursor: pointer;
+}
+.poblacion__opciones--3{
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.educacion__opciones--3{
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.salud__opciones--3{
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.poblacion__opciones--3 label{
+    background-color: #DDDDDD;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.educacion__opciones--3 label{
+    background-color: #DDDDDD;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.salud__opciones--3 label{
+    background-color: #DDDDDD;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.poblacion__opciones--3 label:hover{
+    background-color: #a3a2a2;
+    color: white;
+    cursor: pointer;
+}
+.educacion__opciones--3 label:hover{
+    background-color: #a3a2a2;
+    color: white;
+    cursor: pointer;
+}
+.salud__opciones--3 label:hover{
+    background-color: #a3a2a2;
+    color: white;
+    cursor: pointer;
+}
+.poblacion__opciones--4{
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.educacion__opciones--4{
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.salud__opciones--4{
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    width: 70%;
+    height: auto;
+}
+.poblacion__opciones--4 label{
+    background-color: #DDDDDD;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.educacion__opciones--4 label{
+    background-color: #DDDDDD;
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.poblacion__opciones--4 label:hover{
+    background-color: #a3a2a2;
+    color: white;
+    cursor: pointer;
+}
+.educacion__opciones--4 label:hover{
+    background-color: #a3a2a2;
+    color: white;
+    cursor: pointer;
+}
+.header--opciones{
+    margin-top: 11px;
+    text-align: center;
+    font-weight: bold;
+}
+.contenido__opciones{
+    color: black;
+    display: flex;
+    padding: 0px;
+    margin: 0px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+
+.contenido__opciones:hover{
+    background-color: #a3a2a2;
+    color: black;
+}
+
+
+.btn-acordeon:checked ~ .contenido__opciones{
+    position: block;
+    color: black;
+    max-height: 600px;
+    padding: 15px 0px;
+}
+.btn-acordeon{
+    display: none;
+}
+/*FIN pruebas de opciones dropdown */
+
 
 .dropdown__content{
     display: grid;
